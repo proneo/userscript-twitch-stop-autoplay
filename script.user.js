@@ -2,12 +2,12 @@
 // @name
 // @namespace    https://greasyfork.org/users/1002054-igorskyflyer
 // @version      v1.0.0
-// @description  {{desc}}
+// @description  🛑 Prevents intrusive videos from auto-playing on the Twitch.tv homepage. 📺
 // @author       igorskyflyer
-// @date         2026--
-// @match        https://
+// @date         2026-01-28
+// @match        https://twitch.tv/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=
-// @run-at       document-end
+// @run-at       document-idle
 // @grant        none
 // @license      GPL-3.0-or-later
 // @compatible   chrome
@@ -15,13 +15,48 @@
 // @compatible   opera
 // @compatible   safari
 // @compatible   edge
-// @homepageURL  https://github.com/igorskyflyer/{{repo}}
+// @homepageURL  https://github.com/igorskyflyer/userscript-twitch-stop-autoplay
 // @supportURL   https://greasyfork.org/users/1002054-igorskyflyer
 // ==/UserScript==
 
 // @ts-nocheck
 
 ;(() => {
+  const MAX_ATTEMPTS = 5
+  const POLL_INTERVAL = 2000
 
-  }
+  let attemptsLeft = MAX_ATTEMPTS
+  let foundPlayer = false
+
+  window.addEventListener('load', () => {
+    function findPlayer() {
+      const player = document.querySelector('video[playsinline]')
+
+      if (!player) {
+        return
+      }
+
+      player.addEventListener('playing', () => {
+        player.pause()
+      })
+
+      foundPlayer = true
+    }
+
+    const timer = setInterval(() => {
+      findPlayer()
+      attemptsLeft--
+
+      if (foundPlayer || attemptsLeft <= 0) {
+        clearInterval(timer)
+
+        if (!foundPlayer) {
+          // biome-ignore lint/suspicious/noConsole: Needed for debug purposes.
+          console.error(
+            'Could not find the player. Please visit https://greasyfork.org/users/1002054-igorskyflyer and report the issue.'
+          )
+        }
+      }
+    }, POLL_INTERVAL)
+  })
 })()
