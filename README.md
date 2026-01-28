@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/igorskyflyer/userscript-twitch-stop-autoplay/main/media/script.png" alt="🛑 A UserScript that prevents intrusive videos from auto-playing on the Twitch.tv homepage. 📺" width="256" height="256">
-  <h1></h1>
+  <h1>Twitch - Stop Auto-play</h1>
 </div>
 
 <br>
