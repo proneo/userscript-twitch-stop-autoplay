@@ -12,7 +12,7 @@
 <br>
 
 ## ✅ Features
-- 🛑 Stops auto-play - prevents intrusive Twitch.tv homepage videos from starting automatically
+- 🛑 Stops auto-play - prevents intrusive `Twitch.tv` homepage videos from starting automatically
 - 🎯 Homepage‑only scope - runs exclusively on the Twitch root URL ([**https://twitch.tv/**](https://twitch.tv/)), not on channels or sub‑pages
 - ⏱️ Smart retry logic - polls for the video player up to 5 times at 2‑second intervals to ensure detection
 - 🎬 Event‑based control - hooks into the playing event so the video is paused exactly when playback begins
