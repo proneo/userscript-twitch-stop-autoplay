@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitch - Stop Auto-play on Homepage
 // @namespace    https://greasyfork.org/users/1002054-igorskyflyer
-// @version      v1.0.0
+// @version      v1.0.1
 // @description  🛑 Prevents intrusive videos from auto-playing on the Twitch.tv homepage. 📺
 // @author       igorskyflyer
 // @date         2026-01-28
@@ -37,8 +37,11 @@
         return
       }
 
-      player.addEventListener('playing', () => {
+      player.addEventListener('playing', function handler() {
         player.pause()
+        // remove the handler immediately,
+        // so we are not stuck in a pausing loop
+        player.removeEventListener('playing', handler)
       })
 
       foundPlayer = true
