@@ -4,7 +4,7 @@
 // @version      v1.0.1
 // @description  🛑 Prevents intrusive videos from auto-playing on the Twitch.tv homepage. 📺
 // @author       igorskyflyer
-// @date         2026-01-28
+// @date         2026-01-29
 // @match        https://www.twitch.tv/
 // @match        https://twitch.tv/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=twitch.tv
